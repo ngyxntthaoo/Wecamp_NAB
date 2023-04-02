@@ -1,0 +1,233 @@
+
+nav .container-fluid .navbar-header .navbar-brand {
+    font-family: maglory;
+    font-size: 2.5rem;
+    color: white;
+}
+.intro_page{
+    background-image: linear-gradient(to bottom right, #080707, #140908);
+    color: white;
+}
+.intro_page .welcome_heading{
+    font-family: maglory;
+    font-size: 10rem;
+    font-weight: 300;
+    margin: 20px 20%;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 5%;
+}
+.intro_page .main_page{
+    display: flex;
+    color: #a3a3a3;
+    
+}
+.intro_page .main_page span{
+    font-weight: 300;
+    line-height: 2px;
+    font-family: quicksand;
+        font-size: 1.4rem;
+}
+
+.intro_page .main_page .left_side{
+    flex-direction: 1;
+    width: 40%;
+    padding-left: 5% ;
+    padding-right: 10% ;
+}
+.intro_page .main_page .right_side {
+    flex-direction: 1;
+    width: 30%;
+    padding-left: 10% ;
+    transform: translateX(80%);   
+    text-align: right;
+    
+}
+
+.intro_page .main_page  img{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.intro_page .img-lisa {
+    width: 55%;
+    position: absolute;
+    top: 30%;
+    transform: translateY(-40%);
+    transform: translateX(40%);
+}
+.palace_area{
+    background-color: #f7efe7;
+    font-family: quicksand;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+.palace_area .heading_palace {
+    display: flex;
+}
+.heading_palace h1{
+    font-family: maglory;
+    font-size: 4rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-left: 5%;
+    width: 50%;
+}
+.heading_palace span {
+    width: 40%;
+    padding-left: 10%;
+    text-align: right;
+}
+.gallery_grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+.gallery_grid .gallery {
+
+    margin: 5px;
+    float: left;
+    width: 30%;
+    padding-left: 5%;
+    padding-top: 3%;
+}
+.gallery_grid .gallery img {
+    width: 80%;
+    height: 80%;
+}
+
+.collection_area {
+    display: flex;
+    background-color: #140908;
+    font-family: quicksand;
+    font-size: 1.4rem;
+
+}
+.collection_area .collection_heading{
+    width: 50%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    color: rgb(224, 224, 224);
+}
+.collection_area .collection_heading h1{
+    font-family: maglory;
+    font-size: 4rem;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+.collection_area .collection_heading .btn-exp{
+    background-color: #f7efe7;
+    color: #140908;
+    margin: 5% 0;
+    border-radius: 50px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-transform: uppercase;
+
+}
+.collection_area .collection_heading .btn-exp:hover {
+    background-color: #ffc387;
+    color: #140908;
+}
+.collection_area .collection_img {
+
+    width: 50%;
+}
+
+.collection_area .collection_img img {
+    width: 100%;
+    height: 600px;
+}
+.collection_area .table {
+    width: 80%;
+    padding: 20px;
+    color: #a3a3a3;
+    font-size: 1.5rem;
+}
+
+.collection_area .table td{
+    padding: 10px 0;
+    text-align: left;
+    width: 72%;
+    
+
+}
+.collection_area .table th{
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    color: white;
+}
+.cover-bg {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    text-align: center !important;
+    display: block;
+    background-attachment: fixed;
+    height: 450px;
+}
+.upcoming_area{
+    padding: 5% 20% ;
+    width: 100%;
+    background-color: #f7efe7;
+}
+.upcoming_area h2{
+    
+    font-family: maglory;
+    font-size: 4rem;
+    font-weight: 600;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #a3a3a3;
+
+}
+.upcoming_area .upcoming_collection{
+    display: flex;
+    padding: 5% 0;
+    font-family: quicksand;
+    font-weight: 400;
+    border-bottom: 1px solid #d8d8d8;
+}
+
+.upcoming_area .upcoming_collection img {
+    width: 80%;
+    height: 100%;
+}
+.upcoming_area .upcoming_collection .upcoming_desc {
+    width: 50%;
+}
+.upcoming_area .upcoming_collection .btn-more{
+    border: 1px solid #a3a3a3;
+    padding: 10px 20px;
+    background-color: transparent;
+    color: #000000;
+    margin: 7% 0;
+    border-radius: 50px;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.upcoming_area .upcoming_collection .btn-more:hover {
+    background-color: #ffc387;
+    color: #140908;
+}
+/* --------FOOOTER--------- */
+
+footer{
+    overflow:hidden; 
+    background:#262626 ;
+    color: #627482 ;
+    margin-bottom: 0 ;
+    padding: 50px ;
+    font-family: quicksand;
+    font-weight: 400;
+}
+footer h3{
+    font-weight: 550;
+    font-size: 4rem;
+    font-family: maglory;
+    color: #f7efe7 !important;
+}
+footer li{
+    list-style: none;
+    padding: 10px 0;
+}
+

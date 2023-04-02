@@ -1,0 +1,32 @@
+:root {
+    --black-color: #191514;
+    --white-color: #fff;
+    --grey-color: #ccc;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    /* scrollbar-width: thin; */
+    scroll-behavior: smooth !important;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 300;
+}
+
+body {
+    overflow-x: hidden;
+}
+section{
+    padding: 50px 0;
+}
+/* font face */
+@font-face {
+    font-family: maglory;
+    src: url(../font/Maglonyfreeversion-Regular.ttf);
+}
+@font-face {
+    font-family: quicksand;
+    src: url(../font/Quicksand-VariableFont_wght.ttf);
+}
